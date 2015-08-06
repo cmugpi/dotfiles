@@ -10,12 +10,12 @@ Read "Advanced Usage" below and use your best judgement.
 Otherwise, run these commands while SSH'ed into an Andrew Unix machine:
 
 ```console
-$ curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
-$ curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
+curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
+curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
 
-$ curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
-$ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
-$ vim +PluginInstall +qall
+curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
+git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
+vim +PluginInstall +qall
 ```
 
 Don't worry, we'll teach you all about what just happened before the semester
