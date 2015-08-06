@@ -29,3 +29,7 @@ Unix. The easiest way to do that is with:
 $ curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
 $ echo "source ~/.bashrc_gpi" >> ~/.bashrc
 ```
+
+This repo contains sample configuration files. Feel free to browse the files to
+discover some new tricks! They try to be sort of minimal; we'll get into some
+more advanced configuration tricks near the end of the semester.
