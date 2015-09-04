@@ -1,0 +1,43 @@
+set sys=`/bin/hostname`
+set ignoreeof
+# set the next line to the editor of your choice.
+# export EDITOR=/usr/bin/vim
+export LANG=C
+
+#
+#  Put your additions here before the windowing environment startup.
+#
+#  Window Environment Startup - created, July 1991.  This
+#  startup mechanism is subject to change.  Changes will be
+# documented and announced on the official.andrew bboard.
+#
+#  /usr/local/lib/global.startwindows is the standard mechanism for starting
+#  your windowing environment.   This mechanism is modified through the
+#  environment variable, USE_WINDOW_ENVIRON.  See the help file
+#  "help commandfiles" for more details on your choice of windowing
+#  environments.
+#
+#  The default value of USE_WINDOW_ENVIRON is "x11"
+#  which runs X11 automatically on login
+export USE_WINDOW_ENVIRON=x11
+#
+#  Exiting Your Windowing Environment -
+#
+#  By default, you will be logged out when you exit from your windowing
+#  environment.  Delete the '#' on the line after the next line and save this
+#  file to stay logged in after you quit your windowing environment:
+export NO_LOGOUT_ON_QUIT=""
+#
+
+clear
+
+#
+#  Terminal Environment Setup- add here any instructions you wish
+#  to be invoked whenever you login to Andrew remotely from a terminal,
+#  a PC, or a Macintosh.  These instructions also apply if you choose "none" 
+#  as your windowing environment.
+USER=`whoami`
+PATH=/afs/andrew.cmu.edu/usr/${USER}/bin:/usr/local/bin:/bin:/usr/bin
+
+export PATH
+source ~/.bashrc
