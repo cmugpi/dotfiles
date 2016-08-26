@@ -1,5 +1,3 @@
 # Configuration needed for students enrolled in GPI
 
-export GPI_PATH="/afs/cs.cmu.edu/academic/class/15131-f13"
-export PATH="$PATH:$GPI_PATH/bin"
-source $GPI_PATH/bin/lern2unix_utils.sh
+export PATH="$PATH:/afs/cs.cmu.edu/academic/class/15131-f13/bin"
