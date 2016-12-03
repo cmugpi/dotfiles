@@ -29,7 +29,7 @@ else
 fi
 
 alias killz='killall -9 '
-alias hidden='ls -a | grep "^\..*"'
+alias hidden='ls -d .*'
 alias rm='rm -v'
 alias cp='cp -v'
 alias mv='mv -v'
