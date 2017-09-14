@@ -95,3 +95,11 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[0
 
 # ----- GPI-specific configuration -------------------------------------------
 source ~/.bashrc_gpi
+
+# ----- Adding bins for CS Classes -------------------------------------------
+
+# For C0, Coin, etc (15-122)
+export PATH=$PATH:/afs/andrew/course/15/122/bin
+
+# For smlnj, etc (15-150)
+export PATH=$PATH:/afs/andrew/course/15/122/bin
