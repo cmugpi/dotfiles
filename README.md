@@ -21,7 +21,7 @@ vim +PluginInstall +qall
 Alternatively, you can run these all with a single command
 
 ```console
-source <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -a
+bash <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -a
 ```
 
 Don't worry, we'll teach you all about what just happened before the semester
@@ -42,7 +42,7 @@ echo "source ~/.bashrc_gpi" >> ~/.bashrc
 Alternatively, you can run a single command
 
 ```console
-source <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -m
+bash <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -m
 ```
 
 This repo contains sample configuration files. Feel free to browse the files to
