@@ -14,7 +14,7 @@ curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
 curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
 
 curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
-git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vunvle.vim
+git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ```
 
@@ -29,8 +29,8 @@ of [bashrc_gpi](bashrc_gpi) are included in your shell configuration on Andrew
 Unix. The easiest way to do that is with:
 
 ```console
-$ curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
-$ echo "source ~/.bashrc_gpi" >> ~/.bashrc
+curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
+echo "source ~/.bashrc_gpi" >> ~/.bashrc
 ```
 
 This repo contains sample configuration files. Feel free to browse the files to
