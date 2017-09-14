@@ -24,6 +24,10 @@ Alternatively, you can run these all with a single command
 ```console
 bash <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -a
 ```
+(This runs a bash script from a remote server (the GPI github). Keep in mind
+that it is not normally a good idea to run a script from curl from an untrusted
+source.
+
 
 Don't worry, we'll teach you all about what just happened before the semester
 ends!
@@ -45,6 +49,9 @@ Alternatively, you can run a single command
 ```console
 bash <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -m
 ```
+(This runs a bash script from a remote server (the GPI github). Keep in mind
+that it is not normally a good idea to run a script from curl from an untrusted
+source.
 
 This repo contains sample configuration files. Feel free to browse the files to
 discover some new tricks! They try to be sort of minimal; we'll get into some
