@@ -10,10 +10,11 @@ Read "Advanced Usage" below and use your best judgement.
 Otherwise, run these commands while SSH'ed into an Andrew Unix machine:
 
 ```console
-curl https://github.com/cmugpi/dotfiles/blob/master/bashrc > ~/.bashrc
-curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bash_login > ~/.bash_login
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc > ~/.bashrc
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/bashrc_gpi > ~/.bashrc_gpi
 
-curl https://github.com/cmugpi/dotfiles/blob/master/vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/vimrc > ~/.vimrc
 git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ```
@@ -35,7 +36,7 @@ of [bashrc_gpi](bashrc_gpi) are included in your shell configuration on Andrew
 Unix. The easiest way to do that is with:
 
 ```console
-curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
+curl https://raw.githubusercontent.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
 echo "source ~/.bashrc_gpi" >> ~/.bashrc
 ```
 
