@@ -18,6 +18,12 @@ git clone https://github.com/gmarik/Vundle.vim ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 ```
 
+Alternatively, you can run these all with a single command
+
+```console
+source <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -a
+```
+
 Don't worry, we'll teach you all about what just happened before the semester
 ends!
 
@@ -31,6 +37,12 @@ Unix. The easiest way to do that is with:
 ```console
 curl https://github.com/cmugpi/dotfiles/blob/master/bashrc_gpi > ~/.bashrc_gpi
 echo "source ~/.bashrc_gpi" >> ~/.bashrc
+```
+
+Alternatively, you can run a single command
+
+```console
+source <(curl https://raw.githubusercontent.com/cmugpi/dotfiles/master/install.sh 2> /dev/null) -m
 ```
 
 This repo contains sample configuration files. Feel free to browse the files to
